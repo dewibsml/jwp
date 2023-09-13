@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+
+
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+.logo{
+    color: crinson;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+.logo:hover{
+    color: blue;
+    transition: 0.5;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+    
+}
+
+.navlink{
+    color: blue;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+body{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+.contactme{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 2);
+    border-radius: 30px;
+    padding: 20px;
+    margin-left: 500px;
+    margin-top: 200px;
+}
+
+h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+img:hover {
+    transform: scale(0.9);
+}

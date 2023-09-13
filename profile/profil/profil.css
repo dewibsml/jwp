@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+.home{
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+.logo{
+    color: crinson;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+.logo:hover{
+    color: transparent;
+    transition: 0.5;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+    
+}
+
+.navlink{
+    color: transparent;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: lightskyblue;
+    text-align: center ;
+}
+
+.card{
+    background-color: lightblue;
+    border-radius: 16px;
+    box-shadow: 0 4px 30 rgba(255, 255, 255, 0);
+    backdrop-filter: blur(4,7px);
+    border: 1px solid rgba(0, 0, 0, 0,1);
+    text-align: center;
+    padding: 50px 50px;
+    margin: 30px;
+    width: 70%;
+    margin-left: 200px;
+
+}
+
+img{
+    width: 200pt;
+    height: 200pt;
+    border-radius: 50%;
+    border: solid 3px white;
+    margin-bottom: 10px;
+}
+
+h3{
+    color:  rgb(123, 9, 123);
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    padding: 10px 10px;  
+}
+
+h4{
+    color: rgb(102, 22, 49);
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 10px 10px;
+    
+}
+
+.btn{
+    font-size: 30px;
+    background-color: rgb(110, 48, 85);
+    color:bisque;
+    border: 2px solid;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 15px;
+   
+}
+
+.btn:hover{
+    background: transparent;
+    border: 2px solid black;
+    
+}

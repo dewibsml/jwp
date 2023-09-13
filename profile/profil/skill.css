@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+.logo{
+    color: crinson;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+.logo:hover{
+    color: blue;
+    transition: 0.5;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+    
+}
+
+.navlink{
+    color: blue;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: aquamarine;
+
+}
+
+.skill{
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: white;
+    max-width: 800px;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.listskill{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+.progresbar{
+    width: 700px;
+    height: 20px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.progres{
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: blue;
+
+}
