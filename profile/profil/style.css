@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: lightskyblue;
+}
+
+.home{
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+.logo{
+    color: crinson;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+.logo:hover{
+    color: blue;
+    transition: 0.5;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+    
+}
+
+.navlink{
+    color: blue;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+img{
+height: 400px;
+width: 400px;
+position: absolute;
+bottom: 10%;
+right: 10%;
+transform: rotateX(90%);
+border-radius: 50%;
+border: solid 3px white;
+margin-left: 20px;
+margin-left: 0px;
+ 
+}
+
+
+
+.textprofil{
+    position: absolute;
+    top: 40%;
+    right: 40%;
+    margin-right: 400px;
+}
+
+
+
+h2{
+    color:  purple;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+h3{
+    color: palevioletred;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 50px;
+}
+
+.btn{
+    font-size: 30px;
+    background-color: rgb(110, 48, 85);
+    color:bisque;
+    border: 2px solid;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.btn:hover{
+    background: transparent;
+    border: 2px solid black;
+    margin-left: 50px;
+}
+
